@@ -1,34 +1,52 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+    <style>
+        table {
+            background-color: yellow;
+            border-collapse: collapse;
+            width: 50%;
+            margin: 20px auto;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        caption {
+            font-weight: bold;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        th, td {
+            text-align: center;
+            padding: 8px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-	<table id="table-1" border="1px" bgcolor="yellow" width="50%" height="50%">
-		<caption>Student Details</caption>
-		<tr>
-			<th>NAME</th>
-			<th>AGE</th>
-			<th>BRANCH</th>
-		</tr>
-		<tr>
-			<td>Shaw</td>
-			<td>20</td>
-			<td>CSE</td>
-		</tr>
-		<tr>
-			<td>Adil</td>
-			<td>21</td>
-			<td>ECE</td>
-		</tr>
-	</table>
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <table>
+        <caption>Student Details</caption>
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>BRANCH</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Shaw</td>
+                <td>20</td>
+                <td>CSE</td>
+            </tr>
+            <tr>
+                <td>Adil</td>
+                <td>21</td>
+                <td>ECE</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
-
 </html>
